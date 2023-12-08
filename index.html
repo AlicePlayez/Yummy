@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yummy</title>
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-white shadow py-3">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Yummy<span class="text-primary">.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 column-gap-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about-us">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#menu">menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#events">events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#testmonials">testmonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page">chefs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-primary rounded-pill">Book a Table</button>
+        </div>
+      </nav>
+
+      <main>
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5">
+                    <h2 class="display-1 font-amatic">Enjoy Your Healthy Delicious Food</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero excepturi ad sequi eum soluta veniam.</p>
+                    <div class="d-flex">
+                        <button class="btn btn-primary rounded-pill px-4">Book a Table</button>
+                        <button class="watch btn d-flex align-items-center column-gap-3">
+                            <i class="lightbox-btn text-primary fa-regular fa-circle-play"></i>
+                            <span class="lightbox-btn">Watch Video</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-7 text-end">
+                    <img width="70%" height="70%" src="imgs/hero-img.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+      </main>
+
+      <section id="lightbox-section" class="d-none lightbox-section position-fixed top-0 w-100 h-100 py-5 px-5">
+        <div class="position-relative"><button id="lightbox-close" class="btn btn-dark position-absolute end-0"><i class="fa-solid fa-xmark"></i></button></div>
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center">
+                <iframe width="1000" height="500" src="https://www.youtube.com/embed/LXb3EKWsInQ?si=1aebF3ybOFvYweYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+      </section>
+
+      <section class="about py-5"  id="about-us">
+        <div class="container">
+            <div class="section-titile text-center mb-5">
+                <p class="mb-0">ABOUT US</p>
+                <h2 class="display-2 font-amatic">LEARN MORE <span class="text-primary">ABOUT US</span></h2>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-lg-7">
+                    <div class="about-banner h-100">
+                        
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat amet repellendus rem nihil eaque quam!</p>
+                    <div class="d-flex column-gap-3">
+                        <i class="text-primary fa-solid fa-check-double"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="d-flex column-gap-3">
+                        <i class="text-primary fa-solid fa-check-double"></i>
+                        <p>Ad laborum cum saepe atque in maiores quasi?</p>
+                    </div>
+                    <div class="d-flex column-gap-3">
+                        <i class="text-primary fa-solid fa-check-double"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eaque magnam ea consectetur error?</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In repudiandae dolore animi itaque veniam rem tempore minima eos porro obcaecati?</p>
+
+                    <div class="position-relative">
+                        <img src="imgs/about-2.jpg" class="img-fluid" alt="">
+                        <div class="play-div position-absolute top-50 start-50 translate-middle rounded-circle">
+                            <button class="lightbox-btn play btn btn-primary rounded-circle p-0" ><i class="fa-solid fa-play"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+      <section class="stats-counter my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <p class="display-4 fw-bold text-white">232</p>
+                    <p class="text-white h6 opacity-75 text-uppercase">CLIENTS</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <p class="display-4 fw-bold text-white">521</p>
+                    <p class="text-white h6 opacity-75 text-uppercase">CLIENTS</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <p class="display-4 fw-bold text-white">1453</p>
+                    <p class="text-white h6 opacity-75 text-uppercase">CLIENTS</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <p class="display-4 fw-bold text-white">32</p>
+                    <p class="text-white h6 opacity-75 text-uppercase">CLIENTS</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+
+
+      <section class="tabs py-5"  id="menu">
+        <div class="container">
+            <div class="section-titile text-center mb-5">
+                <p mb-0>OUR MENU</p>
+                <h2 class="display-2 font-amatic">CHECK OUR <span class="text-primary font">YUMMY MENU</span></h2>
+            </div>
+
+            <div data-tabs-section class="tabs-section">
+
+                    <ul class="nav nav-underline justify-content-center">
+                        <li class="nav-item">
+                        <a data-tabs-btn class="nav-link active-2" aria-current="page">Starters</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a data-tabs-btn class="nav-link" aria-current="page">Breakfast</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a data-tabs-btn class="nav-link" aria-current="page">Lunch</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a data-tabs-btn class="nav-link" aria-current="page">Dinner</a>
+                        </li>
+                    </ul>
+                    <p class="text-uppercase text-secondary text-center mt-4 mb-0">menu</p>
+                    <div class="results">
+                        <div data-tabs-result class="row">
+
+                            <h1 class="text-primary text-center design-2">Starters</h1>
+
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-1.png" alt="">
+                                    <h4 class="design-6">Magnam Tiste</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$5.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-1.png" alt="">
+                                    <h4 class="design-6">Aut Luia</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$14.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-1.png" alt="">
+                                    <h4 class="design-6">Est Eligendi</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$8.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-1.png" alt="">
+                                    <h4 class="design-6">Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$12.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-1.png" alt="">
+                                    <h4 class="design-6">Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$12.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-1.png" alt="">
+                                    <h4 class="design-6">Laboriosam Direva</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$9.95</h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!--  -->
+
+                        <div data-tabs-result class="row d-none">
+
+                            <h1 class="text-primary text-center design-2">Breakfast</h1>
+
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-2.png" alt="">
+                                    <h4 class="design-6">Magnam Tiste</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$5.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-2.png" alt="">
+                                    <h4 class="design-6">Aut Luia</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$14.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-2.png" alt="">
+                                    <h4 class="design-6">Est Eligendi</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$8.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-2.png" alt="">
+                                    <h4 class="design-6">Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$12.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-2.png" alt="">
+                                    <h4 class="design-6">Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$12.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-2.png" alt="">
+                                    <h4 class="design-6">Laboriosam Direva</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$9.95</h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!--  -->
+
+                        <div data-tabs-result class="row d-none">
+
+                            <h1 class="text-primary text-center design-2">Lunch</h1>
+
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-3.png" alt="">
+                                    <h4 class="design-6">Magnam Tiste</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$5.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-3.png" alt="">
+                                    <h4 class="design-6">Aut Luia</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$14.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-3.png" alt="">
+                                    <h4 class="design-6">Est Eligendi</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$8.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-3.png" alt="">
+                                    <h4 class="design-6">Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$12.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-3.png" alt="">
+                                    <h4 class="design-6">Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$12.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-3.png" alt="">
+                                    <h4 class="design-6">Laboriosam Direva</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$9.95</h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+
+                        <!--  -->
+
+                        <div data-tabs-result class="row d-none">
+
+                            <h1 class="text-primary text-center design-2">Dinner</h1>
+
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-4.png" alt="">
+                                    <h4 class="design-6">Magnam Tiste</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$5.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-4.png" alt="">
+                                    <h4 class="design-6">Aut Luia</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$14.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-4.png" alt="">
+                                    <h4 class="design-6">Est Eligendi</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$8.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-4.png" alt="">
+                                    <h4 class="design-6">Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$12.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-4.png" alt="">
+                                    <h4 class="design-6">Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$12.95</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 justify-content-center">
+                                <div class="card mt-5 text-center align-items-center">
+                                    <img width="70%" height="70%" src="imgs/menu-item-4.png" alt="">
+                                    <h4 class="design-6">Laboriosam Direva</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <h2 class="text-primary">$9.95</h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+
+
+
+
+
+                    </div>
+        </div>
+        </div>
+      </section>
+
+
+      <section class="py-5 px-3" id="events">
+        <div class="section-titile text-center mb-5">
+            <p>EVENTS</p>
+            <h2 class="display-2 font-amatic">SHARE <span class="text-primary font">YOUR MOMENTS</span> IN OUR RESTURANT</h2>
+        </div>
+        <div class="d-flex align-items-center">
+            <div class="col-2"><button onclick="changeSlide(1)" class="btn btn-secondary rounded-circle"><i class="fa-solid fa-chevron-left"></i></button></div>
+
+            <div class="slider col-8 text-center">
+                
+                <div class="d-block fade-animation" data-slider-img>
+                    <img src="imgs/events-1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="d-none fade-animation" data-slider-img>
+                    <img src="imgs/events-2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="d-none fade-animation" data-slider-img>
+                    <img src="imgs/events-3.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-2 text-end"><button onclick="changeSlide(-1)" class="btn btn-secondary rounded-circle"><i class="fa-solid fa-chevron-right"></i></div>
+
+         </div>
+      </section>
+
+
+
+      <section class="bg-secondary-subtle py-4"  id="testmonials">
+        <div class="container">
+            <div class="section-titile text-center mb-5">
+                <p mb-0>TESTMONIALS</p>
+                <h2 class="display-4 font-amatic">WHAT ARE THEY <span class="text-primary font">SAYING ABOUT US</span></h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-2"><button onclick="do_swipe(-1)" class="btn btn-secondary rounded-circle"><i class="fa-solid fa-chevron-left"></i></button></div>
+                <div class="col-8 overflow-hidden">
+
+                    <div data-swipe-item class="d-flex mb-3 justify-content-between border-start border-3 border-primary px-3">
+                        <div class="col-8">
+                            <i class="fa-solid fa-quote-left fa-lg text-primary"></i>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed facere nostrum, harum voluptatum dicta? Veritatis iure perferendis neque ut voluptates. Voluptas cupiditate eaque quidem recusandae, explicabo eveniet! Velit, cumque.
+                            <i class="fa-solid fa-quote-right fa-lg text-primary"></i>
+
+                            <h2 class="mt-3">Jhon Willson</h2>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                        </div>
+                        
+                        
+                        <div class="col-2">
+                            <img src="imgs/8f57ab75-0807-4c92-a5c1-c73552bb7686.jpg" class="img-fluid rounded-circle border-3 border-white" alt=""></div>
+                        
+                        
+                    </div>
+
+                    <div data-swipe-item class="d-none mb-3 justify-content-between border-start border-3 border-primary px-3">
+                        <div class="col-8">
+                            <i class="fa-solid fa-quote-left fa-lg text-primary"></i>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed facere nostrum, harum voluptatum dicta? Veritatis iure perferendis neque ut voluptates. Voluptas cupiditate eaque quidem recusandae, explicabo eveniet! Velit, cumque.
+                            <i class="fa-solid fa-quote-right fa-lg text-primary"></i>
+
+                            <h2 class="mt-3">Jhon Willson</h2>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                        </div>
+                        
+                        
+                        <div class="col-2">
+                            <img src="imgs/9a581d69-156b-4d0d-8462-fbb04153bb70.jpg" class="img-fluid rounded-circle border-3 border-white" alt=""></div>
+                        
+                        
+                    </div>
+
+                    <div data-swipe-item class="d-none mb-3 justify-content-between border-start border-3 border-primary px-3">
+                        <div class="col-8">
+                            <i class="fa-solid fa-quote-left fa-lg text-primary"></i>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed facere nostrum, harum voluptatum dicta? Veritatis iure perferendis neque ut voluptates. Voluptas cupiditate eaque quidem recusandae, explicabo eveniet! Velit, cumque.
+                            <i class="fa-solid fa-quote-right fa-lg text-primary"></i>
+
+                            <h2 class="mt-3">Jhon Willson</h2>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                        </div>
+                        
+                        
+                        <div class="col-2">
+                            <img src="imgs/b17238d4-bfde-4144-8da2-8ea58017270d.jpg" class="img-fluid rounded-circle border-3 border-white" alt=""></div>
+                        
+                        
+                    </div>
+
+                    <div data-swipe-item class="d-none mb-3 justify-content-between border-start border-3 border-primary px-3">
+                        <div class="col-8">
+                            <i class="fa-solid fa-quote-left fa-lg text-primary"></i>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed facere nostrum, harum voluptatum dicta? Veritatis iure perferendis neque ut voluptates. Voluptas cupiditate eaque quidem recusandae, explicabo eveniet! Velit, cumque.
+                            <i class="fa-solid fa-quote-right fa-lg text-primary"></i>
+
+                            <h2 class="mt-3">Jhon Willson</h2>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffc107;"></i>
+                        </div>
+                        
+                        
+                        <div class="col-2">
+                            <img src="imgs/b255f7fa-cebe-40c0-987d-11c0a9620354.jpg" class="img-fluid rounded-circle border-3 border-white" alt=""></div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-2 text-end"><button onclick="do_swipe(1)" class="btn btn-secondary rounded-circle"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+        </div>
+      </section>
+
+
+      <section class="p-5" id="contact">
+        <div class="container">
+            <div class="section-titile text-center mb-5">
+                <p>CONTACT</p>
+                <h2 class="display-2 font-amatic">NEED HELP? <span class="text-primary font">CONTACT US</span></h2>
+            </div>
+        </div>
+        <div class="text-center">
+            <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.008849204934!2d-74.004927!3d40.712464!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1701525269955!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+            <div class="row">
+                <div class="col-md-6 my-3">
+                    <div class="d-flex bg-secondary-subtle py-4 px-4 align-items-center column-gap-4">
+                        <div class="col-3 d-flex rounded-circle bg-primary justify-content-center align-items-center text-center wh-50"><i class="fa-solid fa-map text-white"></i></div>
+                        <div class="col-7"> 
+                            <h4 class="text-muted m-0 fw-bold">Our Address</h4>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-md-6 my-3">
+                    <div class="d-flex bg-secondary-subtle py-4 px-4 align-items-center column-gap-4">
+                        <div class="col-3 d-flex rounded-circle bg-primary justify-content-center align-items-center text-center wh-50"><i class="fa-solid fa-envelope text-white"></i></i></div>
+                        <div class="col-7"> 
+                            <h4 class="text-muted m-0 fw-bold">Email Us</h4>
+                            <p>contact@example.com</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-md-6 my-3">
+                    <div class="d-flex bg-secondary-subtle py-4 px-4 align-items-center column-gap-4">
+                        <div class="col-3 d-flex rounded-circle bg-primary justify-content-center align-items-center text-center wh-50"><i class="fa-solid fa-phone text-white"></i></div>
+                        <div class="col-7"> 
+                            <h4 class="text-muted m-0 fw-bold">Call Us</h4>
+                            <p>+1 5589 55488 55</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-md-6 my-3">
+                    <div class="d-flex bg-secondary-subtle py-4 px-4 align-items-center column-gap-4">
+                        <div class="col-3 d-flex rounded-circle bg-primary justify-content-center align-items-center text-center wh-50"><i class="fa-solid fa-clock text-white"></i></div>
+                        <div class="col-7"> 
+                            <h4 class="text-muted m-0 fw-bold">Opening Hours</h4>
+                            <p><span class="fw-bold">Mon-Sat:</span> 11AM - 23PM <span class="fw-bold">Sunday:</span> Closed</p>
+                        </div>
+                    </div>
+                    
+                </div>  
+            </div>
+
+
+
+            <div class="p-5 form shadow">
+                <div class="row row-gap-3">
+                            <div class="col-lg-6">
+                                <div>
+                                    <input type="text" class="border w-100 p-2" placeholder="Your Name" fdprocessedid="09ucr2">
+                                 </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div>
+                                    <input type="text" class="border w-100 p-2" placeholder="Your Email" fdprocessedid="3ti5rg">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div>
+                                    <input type="text" class="border w-100 p-2" placeholder="Subject" fdprocessedid="3ti5rg">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <textarea placeholder="Message" class="w-100 p-3 border"></textarea>
+                            </div>
+
+                            <form action=""> <div class="text-center"> <button type="button" class="px-3 btn btn-primary">Send Message</button> </div></form>
+                        
+                           
+                    </div>
+            </div>
+            
+        </section>
+
+
+        <footer class="bg-dark py-5">
+            <div class="container">
+                <div class="row row-gap-3">
+                    
+                    <div class="col-lg-3">
+                        <div class="d-flex column-gap-3">
+                            <div class="icon"><i class="fa-solid fa-location-dot text-white opacity-50"></i></div>
+                                <p class="fw-bold text-white">Address</p>
+                        </div>
+                        <p class="mx-4 mb-0 text-white opacity-50">A108 Adam Street</p>
+                        <p class="mx-4 text-white opacity-50">New York, NY 535022 - US</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="d-flex column-gap-3">
+                            <div class="icon"><i class="fa-solid fa-phone text-white opacity-50"></i></div>
+                                <p class="fw-bold text-white">Reservations</p>
+                        </div>
+                        <p class="mx-4 mb-0 text-white opacity-50">Phone: +1 5589 55488 55</p>
+                        <p class="mx-4 text-white opacity-50">Email: info@example.com</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="d-flex column-gap-3">
+                            <div class="icon"><i class="fa-solid fa-clock text-white opacity-50"></i></div>
+                                <p class="fw-bold text-white">Opening Hours</p>
+                        </div>
+                        <p class="mx-4 mb-0 text-white opacity-50"><span class="fw-bold">Mon-Sat: </span>11AM - 23PM</p>
+                        <p class="mx-4 text-white opacity-50"><span class="fw-bold">Saturday:</span> Closed</p>
+                    </div>
+
+
+                    <div class="col-lg-3">
+                        <div class="d-flex column-gap-3">
+                            <div class="icon"><i class="fa-solid fa-share-nodes text-white opacity-50"></i></div>
+                                <p class="fw-bold text-white">Follow Us</p>
+                        </div>
+                        <div class="icons justify-content-between">
+                            <button class="btn"><i class="fa-brands fa-twitter fa-xl text-white mx-1"></i></button>
+                            <button class="btn"><i class="fa-brands fa-facebook fa-xl text-white mx-1"></i></button>
+                            <button class="btn"><i class="fa-brands fa-youtube fa-xl text-white mx-1"></i></button>
+                            <button class="btn"><i class="fa-brands fa-snapchat fa-xl text-white mx-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
